@@ -1,0 +1,102 @@
+/**************************TAG SELECTORS**************************/
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: #06b7fd;
+}
+
+a:hover {
+  color: #0387bb;
+}
+
+/* hr {
+  border: none;
+  border-top: 8px dotted #0f3057;
+  width: 4%;
+  margin-bottom: 0;
+  margin-top: 0;
+  position: absolute;
+  left: 50%;
+} */
+
+/*************************CLASS SELECTORS*************************/
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+/**************************INTRO SECTION**************************/
+.section-intro {
+  background-color: #e7e7de;
+  color: #0f3057;
+  padding-top: 20px;
+}
+
+.me-pic {
+  height: 200px;
+  width: 200px;
+}
+
+/*************************SKILLS SECTION************************/
+.section-skills {
+  background-color: #008891;
+  color: #0f3057;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/***********************EXPERIENCE SECTION***********************/
+.section-exp {
+  background-color: #00587a;
+  color: #e7e7de;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.exp-header {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.col-dates {
+  margin-left: 25%;
+}
+
+@media (max-width: 800px) {
+  .col-dates {
+    margin-left: 3%;
+  }
+}
+
+/************************EDUCATION SECTION************************/
+.section-edu {
+  background-color: #0f3057;
+  color: #e7e7de;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.comptia-logo {
+  height: 90px;
+  width: 100px;
+}
