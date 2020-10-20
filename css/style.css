@@ -74,9 +74,9 @@ a:hover {
 }
 
 .skills-gif {
-  margin: 10px auto 0 95px;
-  height: 200px;
-  width: 400px;
+  height: 70%;
+  width: 70%;
+  margin: 10px auto 10px auto;
 }
 
 /***********************EXPERIENCE SECTION***********************/
