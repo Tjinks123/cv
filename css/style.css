@@ -87,13 +87,19 @@ a:hover {
 }
 
 .col-dates {
-  margin-left: 25%;
+  margin-left: 20%;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
   .col-dates {
     margin-left: 3%;
+    letter-spacing: 0;
   }
+}
+
+.row-exp {
+  padding: 5px;
+  letter-spacing: 0.1px;
 }
 
 /************************EDUCATION SECTION************************/
